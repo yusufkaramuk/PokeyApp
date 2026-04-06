@@ -1,0 +1,24 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <!-- Arka plan renkleri -->
+    <SolidColorBrush x:Key="BackgroundPrimary" Color="#1E1E2E"/>
+    <SolidColorBrush x:Key="BackgroundSecondary" Color="#2A2A3E"/>
+    <SolidColorBrush x:Key="BorderBrush" Color="#2D2D44"/>
+
+    <!-- Vurgu renkleri -->
+    <SolidColorBrush x:Key="AccentPrimary" Color="#6C63FF"/>
+    <SolidColorBrush x:Key="AccentHover" Color="#7B73FF"/>
+    <SolidColorBrush x:Key="AccentPressed" Color="#5B54E0"/>
+
+    <!-- Metin renkleri -->
+    <SolidColorBrush x:Key="TextPrimary" Color="White"/>
+    <SolidColorBrush x:Key="TextSecondary" Color="#CCCCDD"/>
+    <SolidColorBrush x:Key="TextMuted" Color="#AAAABB"/>
+
+    <!-- Durum renkleri -->
+    <SolidColorBrush x:Key="StatusConnected" Color="#44FF88"/>
+    <SolidColorBrush x:Key="StatusConnecting" Color="#FFAA44"/>
+    <SolidColorBrush x:Key="StatusDisconnected" Color="#FF4444"/>
+
+</ResourceDictionary>
